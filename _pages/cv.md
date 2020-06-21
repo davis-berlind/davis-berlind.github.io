@@ -9,5 +9,5 @@ redirect_from:
 
 {% include base_path %}
 
-<object data="/files/CV.pdf" width=1000 height=500 type='application/pdf'/>
+<object data="/files/CV.pdf" width="1000" height="500" type='application/pdf'/>
 
