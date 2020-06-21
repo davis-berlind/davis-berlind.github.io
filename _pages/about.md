@@ -15,7 +15,7 @@ Before coming to BU, I completed my [M.S. in Economics and Computation](https://
 * I also worked in the lab of Dr. [Rebecca Steorts](https://resteorts.github.io/index.html), where I developed software for implementing Bayesian record linkage methods.
 
 Education
-=====
+======
 * **MS** in Economics and Computation  
   *Duke University*, 2020
 * **BA** in Philosophy, Politics, Economics  
