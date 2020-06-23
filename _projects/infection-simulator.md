@@ -1,6 +1,6 @@
 ---
 title: "Simulating the Effect of Network Structure on the Spread of Disease"
-excerpt: "A continuous-time model for simulating the spread of an infectious disease across a random graph.<br/><img src='/images/infection-sim.PNG'>"
+excerpt: "A continuous-time model for simulating the spread of an infectious disease across a random graph.<br/><img src='/images/infection-sim.png'>"
 collection: projects
 permalink: "/projects/infection-simulator"
 ---
@@ -16,4 +16,4 @@ is available [here](https://github.com/davis-berlind/infection-simulator); howev
 a cluster with a Slurm Workload Manager is required to conduct simulation experiments at any 
 kind of meaningful scale. 
 
-<object data="/files/STOR-672-final-project.pdf" width="1000" height="500" type='application/pdf'/>
+<object data="/files/STOR-672-final-project.pdf" width="1000" height="750" type='application/pdf'/>
