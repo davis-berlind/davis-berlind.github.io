@@ -16,8 +16,8 @@ a *Treasury*.
 
 When purchasing a Treasury, one has to keep track of the [par value](https://www.investopedia.com/terms/p/parvalue.asp), the [coupon rate](https://www.investopedia.com/terms/c/coupon-rate.asp),
 and the price. The par value is the underlying value of the bond, i.e. what the government owes
-you. If you buy a ten year Treasury note with a $1,000 par value, then at the end of those ten
-years the government will pay you back $1,000. The coupon rate is what we might commonly call
+you. If you buy a ten year Treasury note with a \\\$1,000 par value, then at the end of those ten
+years the government will pay you back \\$1,000. The coupon rate is what we might commonly call
 the interest rate. Every year you hold the bond, the government will pay you an additional sum
 equal to the coupon rate times the par value. So continuing the example, if you buy a ten year
 Treasury note with a \$1,000 par value and a five percent annual coupon, then once every year
