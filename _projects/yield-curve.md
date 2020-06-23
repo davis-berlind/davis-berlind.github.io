@@ -5,8 +5,6 @@ collection: projects
 permalink: "/projects/yield-curve"
 ---
 
-<iframe src="https://davis-berlind.shinyapps.io/treasury-yield/?showcase=0" width="100%" height="465"></iframe>
-
 For better or worse, the *yield curve* has become an obstinately persistent topic of economic
 news coverage. But to understand the concept of [yield](https://www.investopedia.com/terms/y/yield.asp),
 we first need to understand [bonds](https://www.investopedia.com/terms/b/bond.asp). When the US
