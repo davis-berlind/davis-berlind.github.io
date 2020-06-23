@@ -5,7 +5,7 @@ collection: projects
 permalink: "/projects/yield-curve"
 ---
 
-<iframe src="https://davis-berlind.shinyapps.io/treasury-yield/" width="100%" height="740"></iframe>
+<iframe src="https://davis-berlind.shinyapps.io/treasury-yield/" width="100%" height="725"></iframe>
 <br/>
 
 For better or worse, the *yield curve* has become an obstinately persistent topic of economic
