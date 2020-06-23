@@ -1,6 +1,6 @@
 ---
 title: "Simulating the Effect of Network Structure on the Spread of Disease"
-excerpt: "A continuous-time model for simulating the spread of an infectious disease across a random graph.<br/><img src='/images/infection-sim.png' width="500" height="250">"
+excerpt: "A continuous-time model for simulating the spread of an infectious disease across a random graph.<br/><img src='/images/infection-sim.png' width='500' height='250'>"
 collection: projects
 permalink: "/projects/infection-simulator"
 ---
