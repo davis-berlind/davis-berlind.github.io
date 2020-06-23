@@ -5,6 +5,8 @@ collection: projects
 permalink: "/projects/infection-simulator"
 ---
 
+# Simulating the Effect of Network Structure on the Spread of Disease
+
 This simulation study was my final project for STOR-672: Simulation Modeling and Analysis, a
 course I took with Dr. Mariana Olvera-Cravioto at the University of North Carolina in the Spring
 of 2020. The model in this paper demonstrates how decreasing the average degree of the nodes in
@@ -16,4 +18,4 @@ is available [here](https://github.com/davis-berlind/infection-simulator); howev
 a cluster with a Slurm Workload Manager is required to conduct simulation experiments at any 
 kind of meaningful scale. 
 
-<object data="/files/STOR-672-final-project.pdf" width="1000" height="1000" type='application/pdf'/>
+<object data="/files/STOR-672-final-project.pdf" width="1000" height="900" type='application/pdf'/>
