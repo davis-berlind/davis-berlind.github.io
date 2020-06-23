@@ -32,7 +32,7 @@ pay \\$1,100 for a \\$1,000 par value bond based on the security it gives, i.e. 
 \\$100 premium. This is where the concept of yield comes in. The yield is simply the annual
 coupon payment divided by the market price of the bond. So if you purchased a ten year Treasury
 note with a \\$1,000 par value and a five percent annual coupon for \\$1,100, then your yield
-would be $\frac{0.05 times 1000}{1100} = 0.0455$; in other words, the yield would be 4.55\\%.
+would be $\frac{0.05 \times 1000}{1100} = 0.0455$; in other words, the yield would be 4.55%.
 
 The yield curve simply comes from plotting the bond yields of Treasuries for maturity term
 length. Typically, the yield curve takes on a nice concave shape indicating that the longer you
@@ -44,7 +44,10 @@ is said to be *inverted*. [Campbell Harvey](https://en.wikipedia.org/wiki/Campbe
 intervening years the inverted yield curve has shown a remarkably accurate track record for
 predicting recessions.
 
-> The ten-year/two-year Treasury spread is one of the most reliable leading indicators of a recession within the following year. For as long as the Fed has published this data back to 1976, it has accurately predicted every declared recession in the U.S., and not given a single false positive signal.[^1]
+> The ten-year/two-year Treasury spread is one of the most reliable leading indicators of 
+> recession within the following year. For as long as the Fed has published this data back to 1976, 
+> it has accurately predicted every declared recession in the U.S., and not given a single false
+> positive signal.[^1]
 
 [^1]: [Jime Chappelow, Investopedia](https://www.investopedia.com/terms/i/invertedyieldcurve.asp)
 
@@ -57,5 +60,5 @@ so I built a shiny app to scrape the data and plot it for me in a way that is in
 easily lets you see the trends in the curve over time.
 
 ```{r, fig.width = 15, echo = F}
-#knitr::include_app("https://davis-berlind.shinyapps.io/treasury-yield/", height = 465)
+knitr::include_app("https://davis-berlind.shinyapps.io/treasury-yield/", height = 465)
 ```
