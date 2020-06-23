@@ -5,8 +5,6 @@ collection: projects
 permalink: "/projects/infection-simulator"
 ---
 
-# Simulating the Effect of Network Structure on the Spread of Disease
-
 This simulation study was my final project for STOR-672: Simulation Modeling and Analysis, a
 course I took with Dr. Mariana Olvera-Cravioto at the University of North Carolina in the Spring
 of 2020. The model in this paper demonstrates how decreasing the average degree of the nodes in
