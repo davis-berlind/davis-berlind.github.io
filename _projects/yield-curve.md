@@ -1,20 +1,27 @@
 ---
 title: "US Treasury Yield Curve Visualizer"
-excerpt: "A Shiny web application that allows the user to scrape US Daily Treasury Yield Curve rates and plot them as a 3D surface.<br/><img src='/images/yield-curve.png'>"
+excerpt: "A Shiny web application that allows the user to scrape US Daily Treasury Yield Curve rates and plot them as a 3D surface.<br/><img src='/images/yield-curve.PNG'>"
 collection: projects
 permalink: "/projects/yield-curve"
 ---
 
-For better or worse, the *yield curve* has become an obstinately persistent topic of economic news coverage.
-But to understand the concept of [yield](https://www.investopedia.com/terms/y/yield.asp), we first need to understand [bonds](https://www.investopedia.com/terms/b/bond.asp).
-When the US government wants to borrow money, the [Treasury](https://en.wikipedia.org/wiki/United_States_Department_of_the_Treasury) issues debt.
-This debt may be called a Treasury bill, note, or bond depending on its [term to maturity](https://www.investopedia.com/terms/t/termtomaturity.asp),
-i.e. the length of time the government is asking to borrow money for, and collectively this kind of debt is called a *Treasury*.
+For better or worse, the *yield curve* has become an obstinately persistent topic of economic
+news coverage. But to understand the concept of [yield](https://www.investopedia.com/terms/y/yield.asp),
+we first need to understand [bonds](https://www.investopedia.com/terms/b/bond.asp). When the US
+government wants to borrow money, the [Treasury](https://en.wikipedia.org/wiki/United_States_Department_of_the_Treasury)
+issues debt. This debt may be called a Treasury bill, note, or bond depending on its 
+[term to maturity](https://www.investopedia.com/terms/t/termtomaturity.asp), i.e. the length of
+time the government is asking to borrow money for, and collectively this kind of debt is called
+a *Treasury*.
 
-When purchasing a Treasury, one has to keep track of the [par value](https://www.investopedia.com/terms/p/parvalue.asp), the [coupon rate](https://www.investopedia.com/terms/c/coupon-rate.asp), and the price.
-The par value is the underlying value of the bond, i.e. what the government owes you. If you buy a ten year Treasury note with a \$1,000 par value, then at the end of those ten years the government will pay you back \$1,000.
-The coupon rate is what we migh commonly call the interest rate. Every year you hold the bond, the government will pay you an additional sum equal to the coupon rate times the par value.
-So continuing the example, if you buy a ten year Treasury note with a \$1,000 par value and a five percent annual coupon, then once every year until the bond matures the government will pay you \$50.
+When purchasing a Treasury, one has to keep track of the [par value](https://www.investopedia.com/terms/p/parvalue.asp), the [coupon rate](https://www.investopedia.com/terms/c/coupon-rate.asp),
+and the price. The par value is the underlying value of the bond, i.e. what the government owes
+you. If you buy a ten year Treasury note with a $1,000 par value, then at the end of those ten
+years the government will pay you back $1,000. The coupon rate is what we might commonly call
+the interest rate. Every year you hold the bond, the government will pay you an additional sum
+equal to the coupon rate times the par value. So continuing the example, if you buy a ten year
+Treasury note with a \$1,000 par value and a five percent annual coupon, then once every year
+until the bond matures the government will pay you \$50.
 
 However, when most Treasuries are purchased, whether through direct auctions by the government or secondary markets, the price paid by the buyer is rarely equal to the par value.
 For instance, if the stock market is slumping and investors want to place their money someplace safe, this may drive up demand for Treasuries, thereby increasing the price above par.
