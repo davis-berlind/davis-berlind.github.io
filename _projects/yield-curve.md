@@ -5,9 +5,7 @@ collection: projects
 permalink: "/projects/yield-curve"
 ---
 
-```{r, echo = F, out.width="100%"}
-knitr::include_app("https://davis-berlind.shinyapps.io/treasury-yield/", height = 465)
-```
+<iframe src="https://davis-berlind.shinyapps.io/treasury-yield/?showcase=0" width="100%" height="465"></iframe>
 
 For better or worse, the *yield curve* has become an obstinately persistent topic of economic
 news coverage. But to understand the concept of [yield](https://www.investopedia.com/terms/y/yield.asp),
@@ -21,22 +19,22 @@ a *Treasury*.
 When purchasing a Treasury, one has to keep track of the [par value](https://www.investopedia.com/terms/p/parvalue.asp),
 the [coupon rate](https://www.investopedia.com/terms/c/coupon-rate.asp),
 and the price. The par value is the underlying value of the bond, i.e. what the government owes
-you. If you buy a ten year Treasury note with a \$1,000 par value, then at the end of those ten
-years the government will pay you back \$1,000. The coupon rate is what we might commonly call
+you. If you buy a ten year Treasury note with a \\$1,000 par value, then at the end of those ten
+years the government will pay you back \\$1,000. The coupon rate is what we might commonly call
 the interest rate. Every year you hold the bond, the government will pay you an additional sum
 equal to the coupon rate times the par value. So continuing the example, if you buy a ten year
-Treasury note with a \$1,000 par value and a five percent annual coupon, then once every year
-until the bond matures the government will pay you \$50.
+Treasury note with a \\$1,000 par value and a five percent annual coupon, then once every year
+until the bond matures the government will pay you \\$50.
 
 However, when most Treasuries are purchased, whether through direct auctions by the government
 or secondary markets, the price paid by the buyer is rarely equal to the par value. For instance,
 if the stock market is slumping and investors want to place their money someplace safe, this may
 drive up demand for Treasuries, thereby increasing the price above par. You might be willing to
-pay \$1,100 for a \$1,000 par value bond based on the security it gives, i.e. you are paying a
-\$100 premium. This is where the concept of yield comes in. The yield is simply the annual
+pay \\$1,100 for a \\$1,000 par value bond based on the security it gives, i.e. you are paying a
+\\$100 premium. This is where the concept of yield comes in. The yield is simply the annual
 coupon payment divided by the market price of the bond. So if you purchased a ten year Treasury
-note with a \$1,000 par value and a five percent annual coupon for \$1,100, then your yield
-would be $\frac{0.05 \times 1000}{1100} = 0.0455$; in other words, the yield would be 4.55\%.
+note with a \\$1,000 par value and a five percent annual coupon for \\$1,100, then your yield
+would be $\frac{0.05 \times 1000}{1100} = 0.0455$; in other words, the yield would be 4.55%.
 
 The yield curve simply comes from plotting the bond yields of Treasuries for maturity term
 length. Typically, the yield curve takes on a nice concave shape indicating that the longer you
