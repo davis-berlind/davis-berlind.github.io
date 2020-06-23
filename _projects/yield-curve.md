@@ -2,6 +2,7 @@
 title: "US Treasury Yield Curve Visualizer"
 excerpt: "A Shiny web application that allows the user to scrape US Daily Treasury Yield Curve rates and plot them as a 3D surface.<br/><img src='/images/yield-curve.png'>"
 collection: projects
+permalink: "/projects/yield-curve"
 ---
 
 For better or worse, the *yield curve* has become an obstinately persistent topic of economic news coverage.
