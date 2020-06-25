@@ -8,6 +8,8 @@ redirect_from:
   - /about.html
 ---
 
+{% seo %}
+
 I am a first year PhD student in the [Economics Deparment](http://www.bu.edu/econ/) at [Boston University](https://www.bu.edu/). My research interests include econometrics, statistics, industrial organization, and applications of large-scale computing to each of these fields. I am also interested in public policy and have previously worked for the municipal governments of New York and Philadelphia, as well as for the [Metropolitan Policy Program](https://www.brookings.edu/program/metropolitan-policy-program/) at the [Brookings Institution](https://www.brookings.edu/).
 
 Before coming to BU, I completed my [M.S. in Economics and Computation](https://econ.duke.edu/masters-programs/degree-programs/msec) at Duke University. While pursuing my degree, I held two positions as a research assistant: 
