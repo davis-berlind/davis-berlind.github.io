@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Davis Berlind"
 title_separator          : "-"
 name                     : &name "Davis Berlind"
-description              : &description "Economics PhD Student @ Boston University"
+description              : &description "Statistics PhD Student @ UCLA"
 url                      : https://davis-berlind.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "davis-berlind.github.io"
@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : "davisberlind"
 facebook:
   username               :
   app_id                 :
@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Davis Berlind"
   avatar           : "profile.jpg"
-  bio              : "Economics PhD Student @ Boston University"
-  location         : "Boston, MA"
+  bio              : "Statistics PhD Student @ UCLA"
+  location         : "Los Angeles, CA"
   employer         :
   pubmed           : 
   googlescholar    : 
@@ -109,7 +109,7 @@ author:
   stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : 
+  twitter          : "davisberlind"
   vine             :
   weibo            :
   xing             :
