@@ -10,8 +10,10 @@ redirect_from:
 
 {% seo %}
 
-I am a first year PhD student in the [Deparment of Statistics](http://statistics.ucla.edu/) at the [University of California, Los Angeles](https://www.ucla.edu/).
-My research interests include Bayesian modeling, social statistics, causal inference, and applications of high-performance computing to each of these fields.
+I am a second year PhD student in the [Deparment of Statistics](http://statistics.ucla.edu/) at the [University of California, Los Angeles](https://www.ucla.edu/).
+I am advised by [Oscar Hernan Madrid Padilla](https://hernanmp.github.io/).
+My research interests include Bayesian modeling, social statistics, causal inference, and applications of high-performance computing to each of these fields. 
+
 I am also interested in public policy and have previously worked for the municipal governments of New York and Philadelphia, as well as for the
 [Metropolitan Policy Program](https://www.brookings.edu/program/metropolitan-policy-program/) at the [Brookings Institution](https://www.brookings.edu/).
 Before coming to UCLA I spent the 2020-2021 academic year as a PhD student in the Economics Department at Boston University.
