@@ -10,7 +10,7 @@ redirect_from:
 
 {% seo %}
 
-I am a second year PhD student in the [Deparment of Statistics](http://statistics.ucla.edu/) at the [University of California, Los Angeles](https://www.ucla.edu/).
+I am a third year PhD student in the [Deparment of Statistics](http://statistics.ucla.edu/) at the [University of California, Los Angeles](https://www.ucla.edu/).
 I am advised by [Oscar Hernan Madrid Padilla](https://hernanmp.github.io/).
 My research interests include Bayesian modeling, social statistics, causal inference, and applications of high-performance computing to each of these fields. 
 
