@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Davis Berlind"
   avatar           : "profile.jpg"
-  bio              : "Statistics PhD Student @ UCLA"
+  bio              : "Statistics PhD Candidate @ UCLA"
   location         : "Los Angeles, CA"
   employer         :
   pubmed           : 
-  googlescholar    : 
+  googlescholar    : "https://scholar.google.com/citations?user=JjqaEzAAAAAJ"
   email            : "dberlind@ucla.edu"
   researchgate     : 
   uri              :
@@ -103,7 +103,7 @@ author:
   impactstory      :
   lastfm           :
   linkedin         : "davis-berlind-a38ab797"
-  orcid            : 
+  orcid            : "https://orcid.org/0009-0003-2117-1116"
   pinterest        :
   soundcloud       :
   stackoverflow    : 
