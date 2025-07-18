@@ -217,8 +217,8 @@ collections:
   teaching:
     output: false
     permalink: /:collection/:path/
-  publications:
-    output: false
+  Research:
+    output: true
     permalink: /:collection/:path/
   projects:
     output: true
@@ -257,10 +257,10 @@ defaults:
       author_profile: true
       share: true
       comments: false
-  # _publications
+  # _research
   - scope:
       path: ""
-      type: publications
+      type: research
     values:
       layout: single
       author_profile: true
