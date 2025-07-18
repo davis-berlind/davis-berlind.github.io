@@ -1,14 +1,19 @@
 ---
-title: "US Treasury Yield Curve Visualizer"
-excerpt: "A Shiny web application that allows the user to scrape US Daily Treasury Yield Curve rates and plot them as a 3D surface.<br/><img src='/images/yield-curve.PNG'>"
-collection: projects
-permalink: "/projects/yield-curve"
+title: "Visualizing changes to the Yield Curve in 3D"
+date: 2020-06-20
+permalink: /posts/2020/06/yield-curve/
+tags:
+  - data visualization
+  - economics
 ---
+
+For better or worse, covering changes to the shape of the US Treasury *yield curve*
+has become a persistent feature of economics journalism. The [Shiny](https://shiny.posit.co/) 
+app below three dimensional visualizations of the yield curve over time.
 
 <iframe src="https://davis-berlind.shinyapps.io/treasury-yield/" width="100%" height="725"></iframe><br/>
 
-For better or worse, covering changes to the shape of the *yield curve* has become a persistent
-feature of economics journalism. Before diving into the concept of [yield](https://www.investopedia.com/terms/y/yield.asp),
+Before diving into the concept of [yield](https://www.investopedia.com/terms/y/yield.asp),
 we need to understand a few things about [bonds](https://www.investopedia.com/terms/b/bond.asp). 
 When the US government wants to borrow money, the [Treasury](https://en.wikipedia.org/wiki/United_States_Department_of_the_Treasury)
 issues debt. This debt may take the form of a Treasury Bill, Note, or Bond depending on its 

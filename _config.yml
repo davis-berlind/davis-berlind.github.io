@@ -217,10 +217,7 @@ collections:
   teaching:
     output: false
     permalink: /:collection/:path/
-  Research:
-    output: true
-    permalink: /:collection/:path/
-  projects:
+  research:
     output: true
     permalink: /:collection/:path/
   talks:

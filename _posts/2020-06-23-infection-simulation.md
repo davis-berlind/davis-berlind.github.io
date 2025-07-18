@@ -1,8 +1,10 @@
 ---
-title: "Simulating the Effect of Network Structure on the Spread of Disease"
-excerpt: "A continuous-time model for simulating the spread of an infectious disease across a random graph.<br/><img src='/images/infection-sim.png' width='500' height='250'>"
-collection: projects
-permalink: "/projects/infection-simulator"
+title: "Modeling Infections on a Graph"
+date: 2020-06-23
+permalink: /posts/2020/06/infection-simulation/
+tags:
+  - python
+  - epidemiology
 ---
 
 This simulation study was my final project for STOR-672: Simulation Modeling and Analysis, a
