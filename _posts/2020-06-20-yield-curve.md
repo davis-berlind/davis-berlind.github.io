@@ -10,12 +10,10 @@ tags:
 
 For better or worse, covering changes to the shape of the US Treasury *yield curve*
 has become a persistent feature of economics journalism. The [Shiny](https://shiny.posit.co/) 
-app below three dimensional visualizations of the yield curve over time.
+app gives a simple way to visualize the evolution of the curve over time.
 
 <iframe src="https://davis-berlind.shinyapps.io/treasury-yield/" width="100%" height="725"></iframe><br/>
-
-Before diving into the concept of [yield](https://www.investopedia.com/terms/y/yield.asp),
-we need to understand a few things about [bonds](https://www.investopedia.com/terms/b/bond.asp). 
+ 
 When the US government wants to borrow money, the [Treasury](https://en.wikipedia.org/wiki/United_States_Department_of_the_Treasury)
 issues debt. This debt may take the form of a Treasury Bill, Note, or Bond depending on its 
 [term to maturity](https://www.investopedia.com/terms/t/termtomaturity.asp), i.e. the length of
@@ -60,14 +58,10 @@ inverted yield curve has demonstrated remarkable accuracy for predicting recessi
 > positive signal.[^2]
 
 Even the current 2020 COVID-19 recession was preceded by a yield curve inversion in August 2019
-(most will point to this as a technicality, but it's a perfect record nonetheless). Talking about a
-curves inverting is an inherently visual prospect. I got tired of grabbing yield data from the
-Treasury's [website](https://www.treasury.gov/resource-center/data-chart-center/interest-rates)
-and manually making plots every time someone in the news rang the yield curve emergency bell,
-so I built a shiny app to scrape the data and plot it for me in a way that is interactive and 
-easily lets you see the trends in the curve over time. Here's the [link](https://davis-berlind.shinyapps.io/treasury-yield/)
-for direct access to the Shiny app. The [source code](https://github.com/davis-berlind/treasury-yield)
-is also available on my [GitHub](https://github.com/davis-berlind).
+(most will point to this as a technicality, but it's a perfect record nonetheless). Here's the 
+[link](https://davis-berlind.shinyapps.io/treasury-yield/) for direct access to the Shiny app. 
+The [source code](https://github.com/davis-berlind/treasury-yield) is also available on my 
+[GitHub](https://github.com/davis-berlind).
 
 [^1]: In addition to being upward sloping, under normal assumptions the yield curve is concave, indicating decreasing marginal returns to assuming more credit risk.
 [^2]: [Jime Chappelow, Investopedia](https://www.investopedia.com/terms/i/invertedyieldcurve.asp)
