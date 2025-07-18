@@ -2,7 +2,7 @@
 title: "Visualizing Changes to the Yield Curve in 3D"
 date: 2020-06-20
 permalink: /posts/2020/06/yield-curve/
-excerpt: A Shiny web application to visualize Treasury Yield Curve rates as a 3D surface.<br/><img src='/images/yield-curve.PNG'>
+excerpt: A Shiny web application to visualize the Yield Curve of US Treasuries as a 3D surface.<br/><img src='/images/yield-curve.PNG'>
 tags:
   - data visualization
   - economics
