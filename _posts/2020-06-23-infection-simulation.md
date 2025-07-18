@@ -2,6 +2,7 @@
 title: "Modeling Infections on a Graph"
 date: 2020-06-23
 permalink: /posts/2020/06/infection-simulation/
+excerpt: Modeling the spread of an infectious disease across a random graph.<br/><img src='/images/infection-sim.png' width='500' height='250'>
 tags:
   - python
   - epidemiology
