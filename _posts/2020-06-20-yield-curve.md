@@ -1,5 +1,6 @@
 ---
 title: "Visualizing Changes to the Yield Curve in 3D"
+author: "Davis Berlind"
 date: 2020-06-20
 permalink: /posts/2020/06/yield-curve/
 excerpt: A Shiny web application to visualize the yield curve of US Treasuries as a 3D surface.<br/><img src='/images/yield-curve.PNG'>
