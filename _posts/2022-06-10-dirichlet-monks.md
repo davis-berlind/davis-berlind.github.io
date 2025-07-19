@@ -3,7 +3,7 @@ title: "Community Detection with Dirichlet Process Prior"
 author: "Davis Berlind"
 date: "2022-06-10"
 permalink: "/posts/2022/06/dirichlet-monk-community-detection/"
-excerpt: "Implementing Bayesian nonparametric community detection for Sampson's monks."<br/><img src='/images/monks.png' width='500' height='250'>
+excerpt: Implementing Bayesian nonparametric community detection for Sampson's monks.<br/><img src='/images/monks.png' width='500' height='250'>
 tags:
   - Bayeseian nonparametrics
   - community dection
