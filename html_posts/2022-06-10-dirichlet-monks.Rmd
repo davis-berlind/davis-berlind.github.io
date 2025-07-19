@@ -332,13 +332,13 @@ The plot below shows the distribution of the pairwise probabilities, which has t
 
 ![Posterior Distribution of Pairwise Clustering Probabilities](2022-06-10-dirichlet-monks-images/monk-pairwise-probs.png)
 
-The last plot below displays an undirected graph constructed by using these pairwise probabilities as edge weights. Thicker edges correspond to larger posterior probabilities. We see a clear separation between the ``Young Turks" and the ``Loyal Opposition," but our model is not able separate the ``Outcasts" from the ``Young Turks."
+The last plot below displays an undirected graph constructed by using these pairwise probabilities as edge weights. Thicker edges correspond to larger posterior probabilities. We see a clear separation between the Young Turks and the Loyal Opposition, but our model is not able separate the Outcasts from the Young Turks.
 
 ![Sampson's Monks Network with Posterior Pairwise Clustering Probabilities](2022-06-10-dirichlet-monks-images/monk-network.png)
 
 ## Acknowledgment
 
-This post was adapted from a project for STATS 202C at UCLA that I worked on with my colleagues Sophie Phillips and John Baierl. Thanks to Sophie and John for their help!
+This post was adapted from a project for STATS 202C at UCLA that I worked on with my colleagues [Sophie Phillips](https://scholar.google.com/citations?user=5ptqzaIAAAAJ&hl=en) and John Baierl. Thanks to Sophie and John for their help!
 
 ## References
 
