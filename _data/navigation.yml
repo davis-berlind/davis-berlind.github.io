@@ -10,5 +10,8 @@ main:
   - title: "Software"
     url: /software/
 
+  - title: "Talks"
+    url: /talks/
+
   - title: "Blog Posts"
     url: /year-archive/
