@@ -5,7 +5,7 @@ permalink: /talks/
 author_profile: true
 ---
 
-## Contributed Preseentations 
+## Contributed Presentations 
 
 1. **A Bayesian framework for change-point detection with uncertainty quantification.**
   a. *8\textsuperscript{th} International Conference on Econometrics and Statistics (EcoSta 2025).* Tokyo, Japan (August 2025).
