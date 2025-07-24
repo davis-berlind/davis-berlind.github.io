@@ -114,7 +114,7 @@ As first noted in @hoff2002latent, the likelihood in this model is invariant to 
 
 We now write a Gibbs sampler to implement our model. First we define helper functions to calculate the Dirichlet process sampling probabilities, initialize the sampler, and perform the necessary post processing laid out above.
 
-```{r}
+```{r, eval=FALSE}
 # helper function for calculating integrated likelihood
 intlik <- function(x, tau, omega) {
   vr <- (tau + omega) / (tau * omega)
