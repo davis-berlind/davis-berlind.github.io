@@ -18,7 +18,7 @@ I am a fifth year PhD candidate in the [Deparment of Statistics](http://statisti
 * Causal Inference 
 * Record Linkage  
 
-On the side, I am interested in public policy and previously worked for the municipal governments of New York and Philadelphia, as well as for the [Metropolitan Policy Program](https://www.brookings.edu/program/metropolitan-policy-program/) at the [Brookings Institution](https://www.brookings.edu/)
+Before starting my PhD, I worked on public policy for the municipal governments of New York and Philadelphia, and interned for the [Metropolitan Policy Program](https://www.brookings.edu/program/metropolitan-policy-program/) at the [Brookings Institution](https://www.brookings.edu/). As an analyst in the NYC Mayor's Office of Management and Budget, I assisted in the early stages of research that went into designing NYC's congestion pricing policy. 
 
 Education
 ======
