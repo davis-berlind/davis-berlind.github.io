@@ -3,7 +3,6 @@ layout: archive
 title: "Software"
 permalink: /software/
 author_profile: true
-math: true
 ---
 
 ## R Packages
