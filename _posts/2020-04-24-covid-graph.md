@@ -10,5 +10,5 @@ tags:
   - epidemiology
 ---
 
-<meta http-equiv="refresh" content="0; url=/html_posts/2020-04-24-infection-simulation.html">
-<p>If you are not redirected, <a href="/html_posts/2020-04-24-infection-simulation.html">click here</a>.<
+<meta http-equiv="refresh" content="0; url=/html_posts/2020-04-24-covid-graph.html">
+<p>If you are not redirected, <a href="/html_posts/2020-04-24-covid-graph.html">click here</a>.<
