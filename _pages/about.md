@@ -21,9 +21,9 @@ On the side, I am interested in public policy and previously worked for the muni
 
 Education
 ======
-* **CPhil,** Statistics 
-  *University of California, Los Angeles*, 2024 
-* **MS,** Economics and Computation 
-  *Duke University*, 2020 
-* **BA,** Philosophy, Politics, Economics (PPE) 
-  *University of Pennsylvania*, 2016
+* **CPhil,** Statistics  
+  *University of California, Los Angeles*, 2024  
+* **MS,** Economics and Computation  
+  *Duke University*, 2020  
+* **BA,** Philosophy, Politics, Economics (PPE)  
+  *University of Pennsylvania*, 2016  
