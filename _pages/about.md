@@ -16,7 +16,8 @@ I am a fifth year PhD candidate in the [Deparment of Statistics](http://statisti
 * High-Dimensional and Nonparametric Statistics 
 * Social Statistics and Network Problems 
 * Causal Inference 
-* Record Linkage 
+* Record Linkage  
+
 On the side, I am interested in public policy and previously worked for the municipal governments of New York and Philadelphia, as well as for the [Metropolitan Policy Program](https://www.brookings.edu/program/metropolitan-policy-program/) at the [Brookings Institution](https://www.brookings.edu/)
 
 Education
