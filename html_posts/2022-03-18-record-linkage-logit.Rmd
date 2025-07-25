@@ -1,0 +1,30 @@
+---
+title: "Bayesian Record Linkage and Binary Classification"
+author: "Davis Berlind"
+date: "2020-03-18"
+output:
+  html_document:
+    mathjax: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_CHTML"
+math: true
+bibliography: rl-logit-references.bib
+header-includes:
+  - \usepackage{amsmath}
+  - \usepackage{amsfonts}
+  - \usepackage{amssymb}
+  - \usepackage{enumitem}
+  - \usepackage{bbm}
+  - \usepackage{graphicx}
+  - \usepackage[ruled,vlined,linesnumbered]{algorithm2e}
+  - \counterwithin*{equation}{section}
+  - \newcommand{\sforall}{\;\forall\;}
+  - \newcommand{\E}{\mathbb{E}}
+  - \newcommand{\Var}{\text{Var}}
+  - \newcommand{\Cov}{\text{Cov}}
+  - \newcommand{\p}{\text{P}}
+  - \newtheorem{lemma}{Lemma}
+  - \newtheorem{theorem}{Theorem}
+---
+
+## Background
+
+## References

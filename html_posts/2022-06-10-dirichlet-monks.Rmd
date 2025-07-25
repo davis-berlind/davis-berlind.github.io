@@ -23,6 +23,8 @@ header-includes:
   - \newtheorem{lemma}{Lemma}
   - \newtheorem{theorem}{Theorem}
 bibliography: monk-references.bib
+author_profile: true
+layout: archive
 ---
 
 ## Background
