@@ -23,17 +23,17 @@ header-includes:
   - \newtheorem{lemma}{Lemma}
   - \newtheorem{theorem}{Theorem}
 bibliography: monk-references.bib
-author_profile: true
-layout: archive
 ---
 
-## Background
+[Back to Main Site](https://davis-berlind.github.io/)
+
+## 1 Background
 
 In his 1968 PhD thesis, @sampson conducted an ethnographic study of novice monks living in a New England monastery. Sampson asked the monks to rank their three most liked and three most disliked peers. This survey was performed on five separate occasions over a year long period. Shortly after the fourth survey was administered, four members of the monastery were expelled. Sampson was interested in identifying the social dynamics that led to the expulsions and used his survey to classify the monks into three categories: Young Turks, Loyal Opposition, Outcasts. In the [data set](https://networkdata.ics.uci.edu/netdata/html/sampson.html), any monk that ranked a colleague in their top three positive relations in any survey was considered to 'like' that monk, resulting in an adjacency matrix $\mathbf{Y}\in\{0,1\}^{18\times 18}$ with $Y_{ij}=1$ indicating a one-way 'liking' relation from monk $i$ to monk $j$. 
 
 @handcock07 developed a latent-position clustering model to detect communities within the network of monks. Their model treats the number of communities as a fixed but unknown parameter and they use the BIC to determine the number of clusters to include in the model. My goal in this post is to lay out a fully Bayesian extension of @handcock07. Rather than treat the number of clusters $K$ as fixed, I will use a Dirichlet process to induce a prior distribtion on $K$.
 
-## Model
+## 2 Model
 
 Given a graph $\mathcal{G}$, we assume that if nodes $i$ and $j$ are in the same community, they are more likely to be connected by an edge in $\mathcal{G}$. @hoff2002latent generalized this idea to a latent space model for network data. They assume each node has a position $Z_i \in \mathbb{R}^d$ in a $d$-dimensional latent social space. The advantage of using latent positions is that it induces transitivity, so that if node $i$ is close to node $j$ in the latent space, and node $j$ is close to node $k$, then we will also have that node $i$ and $k$ are close therefore more likely to be connected in $\mathcal{G}$. Formally, if we have an adjacency matrix $\mathbf{Y}$, where $Y_{ij} = 1$ if there is (directed) edge going from node $i$ to $j$, and $Y_{ij} = 0$ otherwise, then we have  
 \begin{gather*}
@@ -43,7 +43,7 @@ Given a graph $\mathcal{G}$, we assume that if nodes $i$ and $j$ are in the same
 \end{gather*}
 @handcock07 showed that it is possible to include edge specific covariates, $X_{ij}$. For simplicity, I just choose to include an intercept $\beta$, and focus on modeling the latent positions, $\mathbf{Z}$.
 
-### Dirchlet Process Prior
+### 2.1 Dirchlet Process Prior
 
 To model the latent social space, @handcock07 fixed some $K \in \mathbb{N}$ and adopted a Gaussian mixture model,
 \begin{align*}
@@ -70,15 +70,15 @@ So $G_0$, can be thought of as the mean distribution and $\alpha$ controls the s
 \end{align*}
 We can adopt the same prior assumptions as @handcock07 by letting $a = 1$, $b = 0.103 / 2$, and $\omega^2 = 2$. 
 
-### Sampling Methodology
+### 2.2 Sampling Methodology
 
-#### Sampling $\beta$ and $\mathbf{Z}$
+#### 2.2.1 Sampling $\beta$ and $\mathbf{Z}$
 
 To update the intercept parameter $\beta$ and the latent positions $\mathbf{Z}$, we use the same Metropolis-Hastings sampling scheme specified in @handcock07 and described in Algorithm 1.
 
 ![](2022-06-10-dirichlet-monks-images/monk-algorithm-1.png)
 
-#### Sampling $\mu_i$ and $\sigma_i^2$
+#### 2.2.2 Sampling $\mu_i$ and $\sigma_i^2$
 
 Slightly more care is needed to sample $\mu_i$ and $\sigma_i^2$. The advantage of DP priors is that they are very tractable in the context of MCMC sampling. @west95 showed that if we have a general hierarchical model of the form 
 \begin{align*}
@@ -108,11 +108,11 @@ This methodology is summarized in Algorithm 2.
 
 ![](2022-06-10-dirichlet-monks-images/monk-algorithm-2.png)
 
-#### Initialization and Post-Processing
+#### 2.2.3 Initialization and Post-Processing
 
 As first noted in @hoff2002latent, the likelihood in this model is invariant to reflections, rotations and translations of the latent positions $Z_i$. We take the same post-processing approach as @hoff2002latent to account for this basic non-identifiablity in the model. We find the MLE of our model $\hat{Z}_{\text{MLE}}$, and take a Procrustes transformation of the sampled posterior latent positions with respect to $\hat{Z}_{\text{MLE}}$.
 
-## Implementation
+## 3 Implementation
 
 We now write a Gibbs sampler to implement our model. First we define helper functions to calculate the Dirichlet process sampling probabilities, initialize the sampler, and perform the necessary post processing laid out above.
 
@@ -316,7 +316,7 @@ for (t in 1:gibbs_iter) {
 z_chain_proc <- proc.crr(z_chain, Z0 = zmle)
 ```
 
-## Results
+## 4 Results
 
 The plot below shows the posterior distributions of the latent positions, both before and after taking the Procrustes transform. We can see that the three groups have clearly separated into distinct groups in the latent social space, seemingly confirming the analysis of the communities by @sampson. 
 
