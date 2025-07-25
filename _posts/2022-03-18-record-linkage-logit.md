@@ -3,7 +3,7 @@ title: "Bayesian Record Linkage and Binary Classification"
 author: "Davis Berlind"
 date: "2022-03-18"
 permalink: /posts/2022/06/bayesian-rl-logit/
-excerpt: A model for Bayesian record linkage and logistic regression with exact error propogation
+excerpt: A model for Bayesian record linkage and logistic regression with exact error propagation.
 tags:
   - Bernstein-von Mises
   - Dirichlet process
